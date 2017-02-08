@@ -2,7 +2,7 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-<div class="contenedor2">
+<div class="contenedor3">
 	<header>
 		<nav id="menu">
 			<ul>

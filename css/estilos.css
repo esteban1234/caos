@@ -518,6 +518,18 @@ footer {
 
 /*-------------------contacto------------------*/
 
+.contenedor3 {
+    position: relative;
+    /*height: 660px;*/
+    height: auto;
+    background: url('../img/contacto2.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
 .banner3 {
     /*outline: 2px red solid;*/
     width: 60%;
