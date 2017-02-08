@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+
+/*------------------ir-arriba-------------*/
+
+
+/*.ir-arriba {
+    display: none;
+    padding: 20px;
+    background: rgb(190, 208, 1);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+*/
+
+#header {
+    padding: 10px 0px 10px 0px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #00bdff;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#header a {
+    padding: 10px;
+    border: none;
+    color: white;
+    color: #00bdff;
+    text-decoration: none;
+}
+
+.portada {
+    background: url("../img/conta2.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    margin: 30px 0px 30px 0px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+
+/*-------------------------------menu del index-----------------*/
+
+.contenedormenu {
+    position: relative;
+    /*border: 2px red solid;*/
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.contentcirculos {
+    position: relative;
+    /*border: 2px green solid;*/
+    margin-top: 5%;
+    width: 100%;
+    overflow: hidden;
+    /*text-align: center;*/
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    font-size: 32px;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-weight: 400;
+}
+
+h1 {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding-top: 5px;
+}
+
+.ca-menu {
+    padding: 0;
+    margin: 0 auto;
+    /*border: 2px yellow solid;*/
+    overflow: hidden;
+    /*width: 1020px;*/
+    width: 75%;
+    /*text-align: center;*/
+}
+
+.ca-menu li {
+    width: 230px;
+    height: 230px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    /*background: #fff;*/
+    background-color: rgb(89, 157, 207);
+    margin-right: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.ca-menu li:last-child {
+    margin-right: 0px;
+}
+
+.ca-menu li a {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #333;
+    position: relative;
+}
+
+.ca-icon {
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 40px;
+    color: #f6f6f6;
+    line-height: 60px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 30px;
+    text-align: center;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.ca-main {
+    font-size: 24px;
+    position: absolute;
+    top: 110px;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.ca-sub {
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    top: 110px;
+    opacity: 0;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.ca-menu li:hover {
+    background: #f7f7f7;
+    border-color: #fff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.ca-menu li:hover .ca-icon {
+    color: #555;
+    font-size: 60px;
+}
+
+.ca-menu li:hover .ca-main {
+    display: none;
+}
+
+.ca-menu li:hover .ca-sub {
+    opacity: 0.8;
+}
+
+figure {
+    /*border: 2px red solid;*/
+    width: 25%;
+    margin-top: 2%;
+    margin: 0 auto;
+}
+
+
+/*----------quienes somos-------------*/
+
+.contenedor {
+    position: relative;
+    /*height: 660px;*/
+    height: auto;
+    background: url('../img/quienes.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+/*--------------------------menudos---------------*/
+
+header {
+    /*border: 2px red solid;*/
+    overflow: hidden;
+    /*background-color: #cbc5c1;*/
+    background-color: rgba( 0, 0, 0, .5);
+}
+
+#menu {
+    /*border: 2px green solid;*/
+    float: left;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+#menu ul {
+    /*border: 2px red solid;*/
+}
+
+#menu ul li {
+    /*display: inline-block;
+    vertical-align: top;*/
+    float: left;
+    padding: 10px;
+    list-style: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#menu ul li a {
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#menu ul li:hover {
+    background-color: rgb(89, 157, 207);
+    color: #fff;
+}
+
+#menu ul li a:hover {
+    color: #fff;
+}
+
+.select {
+    background-color: rgb(89, 157, 207);
+    color: #fff;
+}
+
+#logo {
+    /*border: 2px yellow solid;*/
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+}
+
+.caos {
+    width: 100%;
+    height: 150px;
+}
+
+.banner {
+    /*outline: 2px red solid;*/
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    color: #FFF;
+    background-color: rgba( 0, 0, 0, .5);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.conten_mvv {
+    /*outline: 2px red solid;*/
+    margin-top: 4%;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.mision {
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-left: 3%;
+}
+
+.icono_q {
+    color: rgb(89, 157, 207);
+}
+
+.mision:hover .icono_q {
+    color: rgb(0, 0, 0);
+}
+
+.titulo {
+    font-size: 19px;
+    margin-top: 1%;
+}
+
+
+/*------------------footer-------------*/
+
+footer {
+    background-color: rgb(89, 157, 207);
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+}
+
+#pie {
+    text-align: center;
+    width: 100%;
+    color: #000;
+    margin-top: 1.5%;
+}
+
+
+/*----------------------servicios-----------*/
+
+.contenedor2 {
+    position: relative;
+    /*height: 660px;*/
+    height: auto;
+    background: url('../img/conta.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.banner2 {
+    /*outline: 2px red solid;*/
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    color: #FFF;
+    background-color: rgba( 0, 0, 0, .5);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.tit {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.contenser {
+    border: 2px red solid;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(89, 157, 207);
+    display: table-cell;
+    text-align: center;
+    /*font-size: 36px;*/
+    vertical-align: middle;
+    float: left;
+    overflow: hidden;
+    margin-left: 7%;
+}
+
+.circulo:hover {
+    background-color: #000;
+}
+
+.nameser {
+    font-size: 25px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+}
+
+.fa-university,
+.fa-gavel {
+    font-size: 70px;
+    margin-top: 20%;
+}
+
+.circulo:hover .fa-university {
+    color: #fff;
+}
+
+.circulo:hover .fa-gavel {
+    color: #fff;
+}
+
+.circulo:hover .nameser {
+    color: #fff;
+}
