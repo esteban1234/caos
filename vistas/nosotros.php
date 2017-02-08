@@ -9,7 +9,7 @@
 				<li><a href="../index.php"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;INICIO</a></li>
 				<li class="select"><a href="nosotros.php"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;QUIENES SOMOS</a></li>
 				<li><a href="servicios.php"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;SERVICIOS</a></li>
-				<li><a href="contactanos.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li>
+				<li><a href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li>
 			</ul>
 		</nav>
 
@@ -27,7 +27,7 @@
 	</article>
 
 	<div class="boton">
-        <a class=" btn btn-large btn-primary" href="contactanos.php">CONTACTANOS!</a>
+        <a class=" btn btn-large btn-primary" href="contacto.php">CONTACTANOS!</a>
     </div>
 </div>
 

@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="vistas/contactanos.php">
+                        <a href="vistas/contacto.php">
                             <span class="ca-icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Contacto</h2>
