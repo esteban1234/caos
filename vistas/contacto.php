@@ -105,7 +105,7 @@
 	                    <div class="panel panel-info">
 	                        <div class="panel-heading">Correo
 	                            <span class="pull-right"><i class="fa fa-envelope-o" aria-hidden="true"></i></span></div>
-	                        <div class="panel-body" style="text-align: center;">pendiente</div>
+	                        <div class="panel-body" style="text-align: center;">info@corporativocaos.com</div>
 	                    </div>
 	                </div>
 	                <div class="col-md-3">
