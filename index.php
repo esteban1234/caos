@@ -46,12 +46,6 @@
     </div>
 
     <figure><img src="img/caos.png" class="img-responsive" alt=""></figure>
-		
-		<!-- <div class="text">
-			<h1>texto</h1> 
-			<h3>texto</h3>
-
-		</div> -->
 </div>
 
 <!-- <span class="ir-arriba icon-chevron-up"></span> -->

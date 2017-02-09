@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px){
+  .portada
+  {
+    border: 2px solid red;
+    height: 100%;
+  }
+
+  .contenedormenu{
+    border: 2px solid green;
+    height: 100%;
+  }
+
+  .contentcirculos
+  {
+    border: 2px solid blue;
+    height: 100%;
+  }
+
+  .ca-menu
+  {
+    border: 2px solid yellow;
+    height: 100%;
+  }
+
+  .ca-menu li{
+    border: 2px solid green;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

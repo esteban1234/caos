@@ -11,6 +11,7 @@
   	<META NAME="Keywords" CONTENT="Bodas en MEXICO, eventos en MEXICO, banquetes, organización de banquetes, banquetes en MEXICO yucatan, banquetes de bodas, coordinadores de bodas, coordinación de bodas, coordinación de eventos, catering, bodas, xv años, graduaciones, bautizos, fiestas, organización de eventos, organización de bodas, renta equipo eventos, renta mobiliario, renta de sillas, renta de mesas, renta salas lounge, renta de toldos, catering bodas, cofee break, servicios para bodas, servicios para eventos, mobiliario para bodas, mobiliario para eventos."/>
   	<link rel="stylesheet" href="../css/bootstrap.css">
   	<link rel="stylesheet" href="../css/iconos.min.css">
-	<link rel="stylesheet" href="../css/estilos.css">
+		<link rel="stylesheet" href="../css/estilos.css">
+		<link rel="stylesheet" href="../css/responsivo.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
 </head>
