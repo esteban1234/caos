@@ -63,7 +63,7 @@
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="phone" name="phone" type="number" min="7" max="10" placeholder="Teléfono" class="form-control" required/>
+                                <input id="phone" name="phone" type="number" placeholder="Teléfono" class="form-control" required/>
                             </div>
                         </div>
 
