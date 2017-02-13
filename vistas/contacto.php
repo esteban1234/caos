@@ -49,28 +49,28 @@
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Nombre completo" class="form-control">
+                                <input id="fname" name="name" type="text" placeholder="Nombre completo" class="form-control" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Correo electronico" class="form-control">
+                                <input id="email" name="email" type="text" placeholder="Correo electronico" class="form-control" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
                             <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                             <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su masaje para nosotros aquí. Nos pondremos en contacto con usted dentro de 2 días hábiles." rows="7"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Ingrese su masaje para nosotros aquí. Nos pondremos en contacto con usted dentro de 2 días hábiles." rows="7" required/></textarea>
                             </div>
                         </div>
 
