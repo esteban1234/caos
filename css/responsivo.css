@@ -1,40 +1,774 @@
 @media screen and (max-width: 480px){
+
+/******************INICIA INDEX****************/
   .portada
   {
-    border: 2px solid red;
-    height: 100%;
-  }
-
-  .contenedormenu{
-    border: 2px solid green;
-    height: 100%;
-  }
-
-  .contentcirculos
-  {
-    border: 2px solid blue;
-    height: 100%;
+    height: auto;
   }
 
   .ca-menu
   {
-    border: 2px solid yellow;
     height: 100%;
   }
 
   .ca-menu li{
-    border: 2px solid green;
+    text-align: center;
+    margin: auto;
+    float: none;
+    display: inline-block;
+  }
+
+  .portada figure{
+    width: 60%;
+  }
+
+
+  /************INICIA MENU***************/
+  #menu
+  {
+    display: none;
+    margin: 0px;
+    position: absolute;;
+    height: 100%;
+    background: rgba(41, 50, 48, 1);
+  }
+
+  #menu ul{
+    overflow: hidden;
+    /*border: 2px solid red;*/
+    width: 83%;
+    float: none;
+    display: inline-block;
+  }
+
+  #menu ul li{
     width: 100%;
+    color: #000;
+  }
+
+  .desplega
+  {
+    display: inline-block;
+    width: 13%;
+    padding: 0px 3%;
+    vertical-align: top;
+    margin-left: 2%;
+  }
+
+
+
+  .desplega .cerrar
+  {
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu-abrir
+  {
+    padding: 1% 5%;
+    background: rgb(111, 111, 111);
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-abrir p, .menu-abrir .abrir
+  {
+    display: inline-block;
+  }
+
+  .menu-abrir p{
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .menu-abrir .abrir
+  {
+    /*border: 2px solid green;*/
+    font-size: 40px;
+    color: #fff;
+    float: right;
+  }
+
+  #logo
+  {
+    /*border: 2px solid red;*/
+    float: none;
+    margin: auto;
+    width: 50%;
+  }
+
+  /*************INICIA NOSOTROS**********/
+  .contenedor .banner
+  {
+    /*border: 2px solid blue;*/
+    width: 100%;
+    text-align: justify;
+  }
+
+  .contenedor .boton a
+  {
+    /*border: 2px solid yellow;*/
+    font-size: 25px;
+  }
+
+  .conten_mvv .mision{
+    /*border: 2px solid red;*/
+    width: 100%;
+    margin: 0px;
+    padding: 10px 15px;
+    /*text-align: justify;*/
+  }
+
+  .mision p{
+    text-align: justify;
+  }
+
+  .mision .titulo
+  {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .mision span
+  {
+    display: none;
+  }
+
+  /************INICIA SERVICIOS*****************/
+
+  .contenedor2 .banner2
+  {
+    /*border: 2px solid red;*/
+    padding: 0px;
+    width: 100%;
+  }
+
+
+  .tit{
+    /*border: 2px solid red;*/
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .contenedor2 .boton a
+  {
+    font-size: 25px;
+  }
+
+  .contenser
+  {
+    /*border: 2px solid red;*/
+  }
+
+  .contenser .contencirculotexto
+  {
+    border-top: .5px solid rgb(200, 200, 200);
+    padding: 5% 0px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .contencirculotexto .contencirculo
+  {
+    margin: auto;
+  }
+
+  .circulo .nameser
+  {
+    text-align: center;
+  }
+
+  .contencirculotexto p{
+    text-align: justify;
+  }
+
+  /*********INICIA CONTACTO*****************/
+  .contenedor3 .banner3
+  {
+    /*border: 2px solid red;*/
+    padding: 0px;
+    width: 100%;
+    text-align: justify;
+    padding: 3% 4%;
+  }
+
+
+
+  /*********INICIA PIE*****************/
+  footer{
+    /*border: 2px solid red;*/
+    padding: 0px;
+    height: auto;
+  }
+
+  #pie .h4
+  {
+    /*border: 2px solid green;*/
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+    /*text-align: justify;*/
   }
 }
 
-@media screen and (max-width: 599px) and (min-width: 481px) {}
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /******************INICIA INDEX****************/
+    .portada
+    {
+      height: auto;
+    }
 
-@media screen and (max-width: 799px) and (min-width: 600px) {}
+    .ca-menu
+    {
+      height: 100%;
+    }
 
-@media screen and (max-width: 1023px) and (min-width: 800px) {}
+    .ca-menu li{
+      text-align: center;
+      margin: auto;
+      float: none;
+      display: inline-block;
+    }
+
+    .portada figure{
+      width: 60%;
+    }
+
+    /************INICIA MENU***************/
+    #menu
+    {
+      display: none;
+      margin: 0px;
+      position: absolute;;
+      height: 100%;
+      background: rgba(41, 50, 48, 1);
+    }
+
+    #menu ul{
+      overflow: hidden;
+      /*border: 2px solid red;*/
+      width: 83%;
+      float: none;
+      display: inline-block;
+    }
+
+    #menu ul li{
+      width: 100%;
+      color: #000;
+    }
+
+    .desplega
+    {
+      display: inline-block;
+      width: 13%;
+      padding: 0px 3%;
+      vertical-align: top;
+      margin-left: 2%;
+    }
+
+
+
+    .desplega .cerrar
+    {
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+    }
+
+    .menu-abrir
+    {
+      padding: 1% 5%;
+      background: rgb(111, 111, 111);
+      display: block;
+      cursor: pointer;
+    }
+
+    .menu-abrir p, .menu-abrir .abrir
+    {
+      display: inline-block;
+    }
+
+    .menu-abrir p{
+      font-size: 30px;
+      color: #fff;
+    }
+
+    .menu-abrir .abrir
+    {
+      /*border: 2px solid green;*/
+      font-size: 40px;
+      color: #fff;
+      float: right;
+    }
+
+    #logo
+    {
+      /*border: 2px solid red;*/
+      float: none;
+      margin: auto;
+      width: 50%;
+    }
+
+
+    /*************INICIA NOSOTROS**********/
+    .contenedor .banner
+    {
+      /*border: 2px solid blue;*/
+      width: 100%;
+      text-align: justify;
+    }
+
+    .contenedor .boton a
+    {
+      /*border: 2px solid yellow;*/
+      font-size: 25px;
+    }
+
+    .conten_mvv .mision{
+      /*border: 2px solid red;*/
+      width: 100%;
+      margin: 0px;
+      padding: 10px 15px;
+      /*text-align: justify;*/
+    }
+
+    .mision p{
+      text-align: justify;
+    }
+
+    .mision .titulo
+    {
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .mision span
+    {
+      display: none;
+    }
+
+    /************INICIA SERVICIOS*****************/
+   .contenedor2 .banner2
+    {
+      /*border: 2px solid red;*/
+      padding: 0px;
+      width: 100%;
+    }
+
+
+    .tit{
+      /*border: 2px solid red;*/
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .contenedor2 .boton a
+    {
+      font-size: 25px;
+    }
+
+    .contenser
+    {
+      /*border: 2px solid red;*/
+    }
+
+    .contenser .contencirculotexto
+    {
+      border-top: .5px solid rgb(200, 200, 200);
+      padding: 5% 0px;
+      width: 100%;
+      margin: 0px;
+    }
+
+    .contencirculotexto .contencirculo
+    {
+      margin: auto;
+    }
+
+    .circulo .nameser
+    {
+      text-align: center;
+    }
+
+    .contencirculotexto p{
+      text-align: justify;
+    }
+
+    /*********INICIA CONTACTO*****************/
+    .contenedor3 .banner3
+    {
+      /*border: 2px solid red;*/
+      padding: 0px;
+      width: 100%;
+      text-align: justify;
+      padding: 3% 4%;
+    }
+
+
+    /*********INICIA PIE*****************/
+    footer{
+      /*border: 2px solid red;*/
+      padding: 0px;
+      height: auto;
+    }
+
+    #pie .h4
+    {
+      /*border: 2px solid green;*/
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0px;
+      /*text-align: justify;*/
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /******************INICIA INDEX****************/
+    .portada
+    {
+      height: auto;
+    }
+
+    .ca-menu
+    {
+      height: 100%;
+    }
+
+    .ca-menu{
+      width: 100%;
+    }
+
+    .ca-menu li{
+      text-align: center;
+      margin: auto;
+      float: none;
+      display: inline-block;
+    }
+
+    .ca-content
+    {
+      /*border: 2px solid green;*/
+      /*overflow: hidden;*/
+    }
+
+    .portada figure{
+      width: 60%;
+    }
+
+    /************INICIA MENU***************/
+    #menu
+    {
+      display: none;
+      margin: 0px;
+      position: absolute;;
+      height: 100%;
+      background: rgba(41, 50, 48, 1);
+    }
+
+    #menu ul{
+      overflow: hidden;
+      /*border: 2px solid red;*/
+      width: 83%;
+      float: none;
+      display: inline-block;
+    }
+
+    #menu ul li{
+      width: 100%;
+      color: #000;
+    }
+
+    .desplega
+    {
+      display: inline-block;
+      width: 13%;
+      padding: 0px 3%;
+      vertical-align: top;
+      margin-left: 2%;
+    }
+
+
+
+    .desplega .cerrar
+    {
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+    }
+
+    .menu-abrir
+    {
+      padding: 1% 5%;
+      background: rgb(111, 111, 111);
+      display: block;
+      cursor: pointer;
+    }
+
+    .menu-abrir p, .menu-abrir .abrir
+    {
+      display: inline-block;
+    }
+
+    .menu-abrir p{
+      font-size: 30px;
+      color: #fff;
+    }
+
+    .menu-abrir .abrir
+    {
+      /*border: 2px solid green;*/
+      font-size: 40px;
+      color: #fff;
+      float: right;
+    }
+
+    #logo
+    {
+      /*border: 2px solid red;*/
+      float: none;
+      margin: auto;
+      width: 30%;
+    }
+
+
+    /*************INICIA NOSOTROS**********/
+    .contenedor .banner
+    {
+      /*border: 2px solid blue;*/
+      width: 100%;
+      text-align: justify;
+    }
+
+    .contenedor .boton a
+    {
+      /*border: 2px solid yellow;*/
+      font-size: 25px;
+    }
+
+    .conten_mvv .mision{
+      /*border: 2px solid red;*/
+      width: 100%;
+      margin: 0px;
+      padding: 10px 15px;
+      /*text-align: justify;*/
+    }
+
+    .mision p{
+      text-align: justify;
+    }
+
+    .mision .titulo
+    {
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .mision span
+    {
+      display: none;
+    }
+
+    /************INICIA SERVICIOS*****************/
+    .contenedor2 .banner2
+    {
+      /*border: 2px solid red;*/
+      padding: 0px;
+      width: 100%;
+    }
+
+
+    .tit{
+      /*border: 2px solid red;*/
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .contenedor2 .boton a
+    {
+      font-size: 25px;
+    }
+
+    .contenser
+    {
+      /*border: 2px solid red;*/
+    }
+
+    .contenser .contencirculotexto
+    {
+      border-top: .5px solid rgb(200, 200, 200);
+      padding: 5% 0px;
+      width: 100%;
+      margin: 0px;
+    }
+
+    .contencirculotexto .contencirculo
+    {
+      margin: auto;
+    }
+
+    .circulo .nameser
+    {
+      text-align: center;
+    }
+
+    .contencirculotexto p{
+      text-align: justify;
+    }
+
+    /*********INICIA CONTACTO*****************/
+    .contenedor3 .banner3
+    {
+      /*border: 2px solid red;*/
+      padding: 0px;
+      width: 100%;
+      text-align: justify;
+      padding: 3% 4%;
+    }
+
+
+
+    /*********INICIA PIE*****************/
+    footer{
+      /*border: 2px solid red;*/
+      padding: 0px;
+      height: auto;
+    }
+
+    #pie .h4
+    {
+      /*border: 2px solid green;*/
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0px;
+      /*text-align: justify;*/
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  /******************INICIA INDEX****************/
+    .portada
+    {
+      height: auto;
+    }
+
+    .ca-menu
+    {
+      height: 100%;
+    }
+
+    .ca-menu{
+      width: 100%;
+      padding: 0px;
+    }
+
+    .ca-menu li{
+      text-align: center;
+      margin: auto;
+      float: none;
+      display: inline-block;
+    }
+
+    .portada figure{
+      width: 60%;
+    }
+
+  /*************INICIA NOSOTROS******************/
+  /*.contenedor header
+  {
+    display: block;
+  }*/
+
+  .menu-abrir, .cerrar
+  {
+    display: none;
+  }
+
+  #menu, #logo
+  {
+    margin: auto;
+    float: none;
+    overflow: hidden;
+  }
+
+  #menu
+  {
+    padding-left: 7%;
+  }
+
+  .contenedor .banner
+  {
+    /*border: 2px solid blue;*/
+    width: 80%;
+    text-align: justify;
+  }
+
+  /**********INICIA SERVICIOS***********/
+
+
+  .contenser .contencirculotexto
+  {
+    padding: 2% 0px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    margin: 0px;
+  }
+
+  .contencirculotexto .contencirculo
+  {
+    margin: auto;
+  }
+
+  .circulo .nameser
+  {
+    text-align: center;
+  }
+
+  .contencirculotexto p{
+    text-align: justify;
+  }
+
+}
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+  /******************INICIA INDEX****************/
+  .ca-menu{
+      width: 100%;
+    }
+
+    .ca-menu li{
+      text-align: center;
+      margin: auto;
+      float: none;
+      display: inline-block;
+    }
+
+    .menu-abrir, .cerrar
+    {
+      display: none;
+    }
+
+    #menu
+    {
+      margin: 5% auto;
+    }
+
+    #logo{
+      margin: auto;
+    }
+
+    header{
+      padding: 0px 5%;
+    }
+
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
 
@@ -11,11 +10,20 @@
 				<li><a href="servicios.php"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;SERVICIOS</a></li>
 				<li><a href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li>
 			</ul>
+			<div class="desplega">
+				<span class="cerrar fa fa-arrows-alt"></span>
+			</div>
+
+			<!-- <li id="desplega"><a class="menu-icono" href="#"><span class="abrir icon-menu"></span><span class="cerrar icon-cross"></span></a></li> -->
 		</nav>
 
 		<!-- Logo -->
 		<div id="logo">
 			<img class="caos" src="../img/caos.png" alt="CORPORATIVO, ADMINISTRATIVO Y OPERATIVO DEL SUR">
+		</div>
+		<div class="menu-abrir">
+			<p>Menú</p>
+			<span class="abrir fa fa-bars"></span>
 		</div>
 	</header>
 
@@ -72,12 +80,9 @@
 </footer>
 
 <!-- <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span> -->
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/iconoarriba.js"></script>
-<!-- <script src="js/active.js"></script> -->
-<script src="js/bootstrap.js"></script>
-<script src="jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.min.js"></script>
-	
+<script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
+
+
 </body>
 </html>

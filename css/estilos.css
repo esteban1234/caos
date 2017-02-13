@@ -308,6 +308,11 @@ header {
     color: #fff;
 }
 
+.menu-abrir, .cerrar
+{
+  display: none;
+}
+
 .select {
     background-color: rgb(89, 157, 207);
     color: #fff;

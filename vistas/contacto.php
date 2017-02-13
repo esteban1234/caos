@@ -11,11 +11,18 @@
 				<li><a href="servicios.php"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;SERVICIOS</a></li>
 				<li  class="select"><a href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li>
 			</ul>
+			<div class="desplega">
+				<span class="cerrar fa fa-arrows-alt"></span>
+			</div>
 		</nav>
 
 		<!-- Logo -->
 		<div id="logo">
 			<img class="caos" src="../img/caos.png" alt="CORPORATIVO, ADMINISTRATIVO Y OPERATIVO DEL SUR">
+		</div>
+		<div class="menu-abrir">
+			<p>Menú</p>
+			<span class="abrir fa fa-bars"></span>
 		</div>
 	</header>
 
@@ -122,7 +129,9 @@
      <div id="pie">
         <p class="h4">Derechos de autor 2017© | CORPORATIVO, ADMINISTRATIVO Y OPERATIVO DEL SUR S. de R.L de C.V.</p>
      </div>
-</footer>						
-	
+</footer>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>

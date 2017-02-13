@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
 
@@ -11,11 +10,18 @@
 				<li class="select"><a href="servicios.php"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;SERVICIOS</a></li>
 				<li><a href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li>
 			</ul>
+			<div class="desplega">
+				<span class="cerrar fa fa-arrows-alt"></span>
+			</div>
 		</nav>
 
 		<!-- Logo -->
 		<div id="logo">
 			<img class="caos" src="../img/caos.png" alt="CORPORATIVO, ADMINISTRATIVO Y OPERATIVO DEL SUR">
+		</div>
+		<div class="menu-abrir">
+			<p>Menú</p>
+			<span class="abrir fa fa-bars"></span>
 		</div>
 	</header>
 
@@ -71,7 +77,7 @@
 		</div>
 		<p>Practicamos exámenes sistemáticos a los estados financieros, registros y transacciones de cada uno de sus clientes para determinar la adherencia a: los principios de contabilidad, generalmente aceptados, a las políticas del ente auditado y a los preceptos legales locales.​</p>
 	</div>
-	
+
 </article>
 
 <footer>
@@ -79,6 +85,9 @@
         <p class="h4">Derechos de autor 2017© | CORPORATIVO, ADMINISTRATIVO Y OPERATIVO DEL SUR S. de R.L de C.V.</p>
      </div>
 </footer>
-	
+
+<script src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
+
 </body>
 </html>
