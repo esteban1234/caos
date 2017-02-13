@@ -22,9 +22,8 @@ $mail->addAddress("ballina.santiago@gmail.com");
 $mail->isHTML(true);
 
 $mail->Subject = "Cotizacion Caos";
-$mail->Body = "<b>Dirección: </b>.$direccion.<br/>
+$mail->Body = "
               <b>Telefono: </b>.$telefono.<br/>
-              <b>Servicio Solicitado: </b>.$servicio.<br/>
               <b>Comentario: </b>.$comentario.<br/>";
 // $mail->AltBody = "This is the plain text version of the email content";
 
