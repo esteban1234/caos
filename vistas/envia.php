@@ -6,12 +6,10 @@ $mail = new PHPMailer();
 
 // Recoger los valores del Formulario
 
-$nombre = $_POST['nombre'];
-$telefono = $_POST['telefono'];
-$direccion = $_POST['direccion'];
-$correo = $_POST['correo'];
-$servicio = $_POST['servicio'];
-$comentario = $_POST['mensaje'];
+$nombre = $_POST['name'];
+$telefono = $_POST['phone'];
+$correo = $_POST['email'];
+$comentario = $_POST['message'];
 
 $mail->CharSet = 'utf-8';
 //From email address and name
@@ -19,11 +17,11 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("informacion@athlon.mx");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 $mail->isHTML(true);
 
-$mail->Subject = "Cotizacion Athlon";
+$mail->Subject = "Cotizacion Caos";
 $mail->Body = "<b>Dirección: </b>.$direccion.<br/>
               <b>Telefono: </b>.$telefono.<br/>
               <b>Servicio Solicitado: </b>.$servicio.<br/>
@@ -35,7 +33,7 @@ if(!$mail->send())
     // echo "Error al enviar Mensaje: " . $mail->ErrorInfo;
     echo ("<SCRIPT LANGUAGE='JavaScript'>
           window.alert('Error al Enviar MENSAJE')
-          window.location.href='Contacto.php'
+          window.location.href='contacto.php'
         </SCRIPT>");
 
 }
@@ -43,7 +41,7 @@ else
 {
   echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Mensaje Enviado Correctamente')
-        window.location.href='Contacto.php'
+        window.location.href='contacto.php'
       </SCRIPT>");
 
 
